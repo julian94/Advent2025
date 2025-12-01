@@ -1,6 +1,6 @@
 ﻿namespace Advent2025;
 
-public static class Day01
+public static class Day11
 {
     public static string PartOne(string input) => "todo";
 
