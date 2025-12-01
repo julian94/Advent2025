@@ -2,10 +2,10 @@
 using NUnit.Framework;
 namespace TestAdvent2025;
 
-public class TestDay01Part1
+public class TestDay01
 {
     [Test]
-    public static void MatchesExample()
+    public static void PartOne()
     {
         var exampleInput = """
         L68
@@ -22,12 +22,9 @@ public class TestDay01Part1
         var exampleResult = "3";
         Assert.That(Day01.PartOne(exampleInput), Is.EqualTo(exampleResult));
     }
-}
 
-public class TestDay01Part2
-{
     [Test]
-    public static void MatchesExample()
+    public static void PartTwo()
     {
         var exampleInput = """
         L68
