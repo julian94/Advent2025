@@ -1,4 +1,4 @@
-﻿namespace Advent2025;
+﻿namespace Advent;
 
 public static class Day04
 {

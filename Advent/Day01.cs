@@ -1,10 +1,9 @@
-﻿namespace Advent2025;
+﻿namespace Advent;
 
 public static class Day01
 {
     public static string PartOne(string input)
     {
-
         var lines = input.Split("\n");
         var position = 50;
         var timesPositionWasZero = 0;

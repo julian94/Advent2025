@@ -1,8 +1,11 @@
-﻿using Advent2025;
+﻿using Advent;
 
 Console.WriteLine("Hello, Advent of Code!");
 
 var day = int.Parse(args[0]);
+
+Stopwatch stopWatch = new();
+stopWatch.Start();
 
 var partOne = day switch
 {
@@ -21,9 +24,11 @@ var partOne = day switch
     _ => throw new NotImplementedException(),
 };
 
+stopWatch.Stop();
 Console.WriteLine(partOne);
+Console.WriteLine($"Calculated in {stopWatch.Elapsed}");
 
-
+stopWatch.Restart();
 var partTwo = day switch
 {
     1 => Day01.PartTwo(File.ReadAllText("Day01.txt")),
@@ -41,4 +46,6 @@ var partTwo = day switch
     _ => throw new NotImplementedException(),
 };
 
+stopWatch.Stop();
 Console.WriteLine(partTwo);
+Console.WriteLine($"Calculated in {stopWatch.Elapsed}");
