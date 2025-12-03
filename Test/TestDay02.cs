@@ -1,6 +1,4 @@
-﻿using Advent2025;
-using NUnit.Framework;
-namespace TestAdvent;
+﻿namespace TestAdvent;
 
 public class TestDay02
 {

@@ -1,17 +1,14 @@
 ﻿namespace TestAdvent;
 
-public class TestDay03
+public class TestDay04
 {
     [Test]
     public static void PartOne()
     {
         var exampleInput = """
-        987654321111111
-        811111111111119
-        234234234234278
-        818181911112111
+
         """;
-        var exampleResult = "357";
+        var exampleResult = "";
         Assert.That(Day03.PartOne(exampleInput), Is.EqualTo(exampleResult));
     }
 
@@ -19,12 +16,9 @@ public class TestDay03
     public static void PartTwo()
     {
         var exampleInput = """
-        987654321111111
-        811111111111119
-        234234234234278
-        818181911112111
+
         """;
-        var exampleResult = "3121910778619";
+        var exampleResult = "";
         Assert.That(Day03.PartTwo(exampleInput), Is.EqualTo(exampleResult));
     }
 }
